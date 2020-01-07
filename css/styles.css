@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  background-color: #e1eacd;
+  color: #01352c;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+.top-container {
+  width: 100%;
+  background-color: #61b390;
+  margin: 0 auto 0 auto;
+  padding: 50px 0 50px;
+}
+
+.middle-container {}
+
+.bottom-container {
+  width: 100%;
+  background-color: #61b390;
+  padding: 50px 0 20px;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  height: 0;
+  width: 15%;
+}
+
+h1 {
+  font-size: 5rem;
+  margin: 50px auto 0 auto;
+  color: e3b04b;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 2rem;
+  font-weight: normal;
+  color: e3b04b;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  color: 2b2b28 font-family: 'Montserrat', sans-serif;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skills {
+  margin: 20px 0 20px 0;
+}
+
+.skillimg {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.cameraimg {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.cloudimg {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.intro {
+  width: 60%;
+  margin: 0 auto 10px auto;
+  line-height: 1.5;
+}
+.hello {
+  width: 60%;
+  margin: 0 auto 0 auto;
+  padding: 20px 0 20px 0;
+  line-height: 1.5;
+}
+.contact {
+  width: 30%;
+  margin: 0 auto 0 auto;
+  line-height: 1.5;
+}
+.contact-me{
+  margin: 50px auto 50px auto;
+}
+
+.myButton {
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
